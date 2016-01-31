@@ -1,18 +1,23 @@
 {
   "name": "botbase",
   "version": "0.0.1",
-  "description": "",
+  "description": "Slite bot module.",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"
   },
-  "keywords": [],
+  "keywords": ["Slite", "bot"],
   "author": "ukiuni",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https:github.com/ukiuni/SliteBotbase.git"
+  },
   "dependencies": {
     "bluebird": "^3.1.5",
     "commander": "^2.9.0",
     "request": "^2.69.0",
     "socket.io-client": "^1.4.5"
-  }
+  },
+  "homepage": "https://slite.ukiuni.com"
 }
