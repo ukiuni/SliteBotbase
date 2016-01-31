@@ -10,6 +10,7 @@ var bot = new Bot({
 bot.on("message", function(message){
 	console.log("message. => " + message.body + " from " + owner.name);
 })
+bot.sendMessage("*OK* I'm awesome.")
 ```
 # Api
 * constructor(parameters)
