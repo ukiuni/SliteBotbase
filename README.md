@@ -14,10 +14,11 @@ bot.sendMessage("*OK* I'm awesome.")
 ```
 # Api
 * constructor(parameters)
-** parameters.key bot's key. create at [Slite](https://slite.ukiuni.com) message view. required.
-** parameters.host connect host. default is https://slite.ukiuni.com. option.
+ * parameters.key bot's key. create at [Slite](https://slite.ukiuni.com) message view. required.
+ * parameters.host connect host. default is https://slite.ukiuni.com. option.
 * sendMessage(body) send message to channel. 
-** body Message to be send. Can be Markdown.
+ * body Message to be send. Can be Markdown.
+* disconnect() disconnect from server. Call before exit node app.
 
 # event
 bot emits event. receive event with "on" function like bot.on("message", listenerFunc)
